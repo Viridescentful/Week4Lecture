@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/Viridescentful/tempconvert.git'
+                git branch: 'master', url: 'https://github.com/Viridescentful/Week4Lecture.git'
             }
         }
 
