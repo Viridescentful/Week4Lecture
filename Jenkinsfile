@@ -13,7 +13,7 @@ pipeline {
         PATH = "C:\\Program Files\\Docker\\Docker\\resources\\bin;${env.PATH}"
 
         DOCKERHUB_CREDENTIALS_ID = 'Docker_Hub'
-        DOCKER_IMAGE = 'viridescentful/codeanalysis'
+        DOCKER_IMAGE = 'viridescentful/codeanalysis2'
         DOCKER_TAG = 'latest'
     }
 
